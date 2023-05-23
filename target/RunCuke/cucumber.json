@@ -1,0 +1,304 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1819200600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage \u0026 Login to the application",
+            "match": {
+              "location": "UserTestSteps.iAmOnHomePageLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11083019000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "I should login successfully",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-different-login-functions.;i-should-login-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1800680500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1576957300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see Welcome message",
+            "match": {
+              "location": "LoginTestSteps.iSeeWelcomeMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@sanity"
+          },
+          {
+            "line": 6,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to verify different login functions.",
+    "description": "",
+    "id": "as-a-user-i-want-to-verify-different-login-functions.",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2227506800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage \u0026 Login to the application",
+            "match": {
+              "location": "UserTestSteps.iAmOnHomePageLoginToTheApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4963108800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Admin should be able to add users",
+        "description": "",
+        "id": "as-a-user-i-want-to-verify-admin-can-execute-different-actions-on-users.;admin-should-be-able-to-add-users",
+        "after": [
+          {
+            "result": {
+              "duration": 1050675200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1727459300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click On Admin Tab",
+            "match": {
+              "location": "UserTestSteps.iClickOnAdminTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 509284100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Verify System Users Text",
+            "match": {
+              "location": "UserTestSteps.iVerifySystemUsersText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1049227200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click On Add button",
+            "match": {
+              "location": "UserTestSteps.iClickOnAddButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 396019100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Verify Add User Text",
+            "match": {
+              "location": "UserTestSteps.iVerifyAddUserText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33170691700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Select User Role Admin",
+            "match": {
+              "location": "UserTestSteps.iSelectUserRoleAdmin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32081014100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter Employee Name Ananya Dash",
+            "match": {
+              "location": "UserTestSteps.iEnterEmployeeNameAnanyaDash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677364000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter User name",
+            "match": {
+              "location": "UserTestSteps.iEnterUserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32772790100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Select status Disable",
+            "match": {
+              "location": "UserTestSteps.iSelectStatusDisable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156035500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password",
+            "match": {
+              "location": "UserTestSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232798900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter Confirm Password",
+            "match": {
+              "location": "UserTestSteps.iEnterConfirmPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110737100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click On Save Button",
+            "match": {
+              "location": "UserTestSteps.iClickOnSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify message Successfully Saved",
+            "match": {
+              "location": "UserTestSteps.iVerifyMessageSuccessfullySaved()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@sanity"
+          },
+          {
+            "line": 6,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to verify admin can execute different actions on users.",
+    "description": "",
+    "id": "as-a-user-i-want-to-verify-admin-can-execute-different-actions-on-users.",
+    "keyword": "Feature",
+    "uri": "userstest.feature"
+  }
+]

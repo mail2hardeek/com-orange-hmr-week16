@@ -1,0 +1,10 @@
+com\orange\hrm\pages\LoginPage.class
+com\orange\hrm\pages\ViewSystemUsersPage.class
+com\orange\hrm\pages\DashboardPage.class
+com\orange\hrm\browserfactory\ManageBrowser.class
+com\orange\hrm\utility\Utility$1.class
+com\orange\hrm\utility\Utility.class
+com\orange\hrm\propertyreader\PropertyReader.class
+com\orange\hrm\pages\AddUserPage.class
+com\orange\hrm\pages\AdminPage.class
+com\orange\hrm\pages\HomePage.class
